@@ -1,5 +1,5 @@
-# Use the official PHP 7 Alpine image as a base image
-FROM php:7-alpine
+# Use the official PHP 8.1 Alpine image as a base image
+FROM php:8.1-alpine
 
 # Install system dependencies and PHP extensions
 RUN apk --no-cache add \
